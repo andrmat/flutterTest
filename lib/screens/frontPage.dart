@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp1/authorication.dart';
 import 'sign_In.dart';
-import 'logged_In.dart';
 
 class FrontPage extends StatefulWidget {
   @override
@@ -78,7 +77,6 @@ class _FrontPageState extends State<FrontPage> {
                         highlightElevation: 10.0,
                         child: Text('Zaloguj przez Google'),
                         onPressed: () {
-
                           _auth.loginWithGoogle();
 
 //                          Navigator.push(context, MaterialPageRoute(builder: (context) => SignInScreen()),);
@@ -87,7 +85,7 @@ class _FrontPageState extends State<FrontPage> {
                     ),
                     SizedBox(height: 15.0),
                     ButtonTheme(
-                      minWidth: 200,
+                      minWidth: 150,
                       child: RaisedButton(
                         color: Colors.amber,
                         highlightElevation: 10.0,
