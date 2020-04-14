@@ -10,7 +10,13 @@ class _testerState extends State<tester> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TestBar'),),
+        title: Text('TestBar'),
+        centerTitle: true,),
+        body: Column(children: <Widget>[
+
+          Text('data'),
+
+        ],),
     );
   }
 }
